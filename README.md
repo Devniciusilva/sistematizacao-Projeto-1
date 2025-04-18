@@ -29,12 +29,12 @@ https://devniciusilva.github.io/sistematizacao-Projeto-1/
 projeto-clinica: index.html # Página principal do site;
 style.css: Estilos aplicados à página;
 logo.jpg: Logo da clínica;
-exames.jpg: Imagem ilustrativa dos exames
-consultas.jpg: Imagem das consultas médicas
-medico1.jpg: Foto do Dr. Ricardo
-medico2.jpg: Foto do Dr. Fernando
-medica3.jpg: Foto da Dra. Rebeca
-medica4.jpg: Foto da Dra. Tauana
+exames.jpg: Imagem ilustrativa dos exames;
+consultas.jpg: Imagem das consultas médicas;
+medico1.jpg: Foto do Dr. Ricardo;
+medico2.jpg: Foto do Dr. Fernando;
+medica3.jpg: Foto da Dra. Rebeca;
+medica4.jpg: Foto da Dra. Tauana;
 
 ---
 
