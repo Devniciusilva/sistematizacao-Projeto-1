@@ -1,15 +1,23 @@
+/* Estilização geral da página */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color:rgba(238, 241, 243, 0.5);
 }
+
+/* Cabeçalho com fundo azul e texto branco */
 
 header {
     background-color: #0077b6;
     color: white;
     padding: 20px;
 }
+
+/* Logo da clínica no canto esquerdo do cabeçalho */
+
 .logo  {
     display: float;
     float: left;
@@ -26,14 +34,22 @@ h1, h2 {
     margin: 5px 1;
 }
 
+/* Seções principais com margem vertical */
+
 #servicos, #equipe, #formulario {
     margin: 40px 0;
 }
+
+/* Estilização dos blocos de serviço */
+
 #servicos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* Imagens dos serviços com sombra e borda arredondada */
+
 .servico {
     display: flex;
     flex-direction: column;
@@ -42,11 +58,17 @@ h1, h2 {
     text-align:center;
     margin:20px;
 }
+
+/* Texto dos serviços */
+
 .servico p {
     margin-top: 10px;
     font-size: 1.1em;
     font-weight: bold;
 }
+
+/* Imagens dos serviços */
+
 .servico img {
     width: 100%;
     max-width: 350px;
@@ -54,16 +76,24 @@ h1, h2 {
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Estilo dos membros da equipe */
+
 .servico, .membro {
     display: inline-block;
     margin: 10px;
 }
+
+/* Imagens dos membros da equipe */
 
 .servico img, .membro img {
     width: 200px;
     height: auto;
     border-radius: 5px;
 }
+
+/* Container da chamada de agendamento */
+
 .container {
     max-width:600px;
     margin: 50px auto;
@@ -72,23 +102,36 @@ h1, h2 {
     box-shadow: 0 010px rgba(0, 0, 0, 0.1);
     
 }
+
+/* Subtítulo da chamada de agendamento */
+
 h3{
     color:#d32f2f ;
 }
+
+/* Parágrafos gerais */
+
 p {
     color:#555;
 }
+
+/* Estilo do botão de agendamento */
+
 .btn-agendar {
    display: inline-block;
    padding: 15px 30px;
    background-color:color(from color srgb r g b)
    
    
-   
+/* Efeito ao passar o mouse no botão */
+ 
 }
-.btn-agendar:houver{
+.btn-agendar:hover{
     background-color:color(from color srgb r g b);
 }
+
+/* Estilo do formulário */
+
 form {
     display: flex;
     flex-direction: column;
@@ -96,9 +139,13 @@ form {
     background-color:rgba(238, 241, 243, 0.5);
 }
 
+/* Campos do formulário */
+
 label, input {
     margin: 5px 0;
 }
+
+/* Botão de envio do formulário */
 
 button {
     margin-top: 10px;
@@ -109,9 +156,13 @@ button {
     cursor: pointer;
 }
 
+/* Hover no botão */
+
 button:hover {
     background-color: #005f8a;
 }
+
+/* Rodapé com fundo azul */
 
 footer {
     background-color: #0077b6;

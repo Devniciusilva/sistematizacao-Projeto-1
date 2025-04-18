@@ -1,45 +1,60 @@
+<!-- Início da estrutura HTML da página da Clínica Saúde para Todos -->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+
+ <!-- Define a codificação de caracteres -->
       <meta charset="UTF-8"> 
+
+<!-- Responsividade para dispositivos móveis -->
       <meta name="viewport"
       content= "width=device- width, initial-scale=1.0">
+
+<!--Logo da página-->
       <div class="header-container">
         <img src="logo.jpg" alt="Logo da clínica" class="logo">
-        
+
+<!-- Título da aba do navegador -->
       <title>Saúde para Todos</title>
+
+<!-- Link para o arquivo CSS externo -->
       <link rel="stylesheet"
       href="style.css">
       
-      <style>
-        body {
-            font-family:Arial, Helvetica, sans-serif;
-            text-align:center;
-            margin:0;
-            padding:0;
-            background-color:rgba(238, 241, 243, 0.5);
-        }
-        
-        </style>
+    
     </head>
     <body>
+        
+ <!-- Cabeçalho e texto de boas-vindas -->
         <header>
             <h1> Bem-vindo à Clínica Saúde para Todos</h1>
             <p>Oferecendo atentimento especializado e de qualidade com preços acessíveis garantindo saúde para todos.</p>
         </header>
+
+<!-- Seção com os principais serviços oferecidos -->
         <section id="serviços">
             <h2>Nossos serviços</h2>
+
+<!-- Serviço: Exames laboratoriais -->
             <div class="servico">
                 <img src="exames.jpg" alt="Exames Laboratoriais">
                 <p> Exames laboratoriais completos para monitoramento da sua saúde.</p>
                 </div>
+
+<!-- Serviço: Consultas -->
                 <div class="servico">
                     <img src="consultas.jpg" alt="Consultas com médicos especializados">
                     <p> Consultas presenciais e on-line com médicos especializados.</p>
                 </div>
+
+<!-- Seção com a equipe médica -->
+
         </section>
         <section id="Equipe">
             <h2>Conheça nossa Equipe</h2>
+
+<!-- Card de cada profissional -->
+
             <div class="membro">
                 <img src="medico1.jpg" alt="Dr. Ricardo - Clínico Geral">
                 <p>Dr. Ricardo - Clínico Geral</p>
@@ -56,16 +71,26 @@
                 <img src="medica4.jpg" alt="Dra. Tauana - Psicóloga">
                 <p>Dra. Tauana - Psicóloga</p>
             </div>
+
+<!-- Seção de chamada para agendamento -->
+
             <div class="container">
                 <h3><strong>Agende sua consulta</strong></h3>
                 <p>Cuide da sua saúde com um check-up completo</p>
                 <p><strong><br/>Saúde para todos <br/></strong>Para cuidar da sua saúde é preciso conhecer o seu corpo. Faça seu check-up e viva com mais segurança e qualidade de vida.</em></p>
                 <p><em>Aceitamos convênios</em></p>
+
+<!-- Link estilizado como botão para simular agendamento -->
+
                 <a href="pagina.alvo.html" class="btn-agendar">AGENDE AQUI</a>
             </div>
+
+<!-- Formulário de contato para saber mais sobre a cliníca -->
         </section>
         <section id="formulario">
             <h2> Quer saber mais sobre a clínica?</h2>
+
+<!-- Campos do formulário -->
             <form>
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" required>
@@ -81,11 +106,18 @@
             <option>São Paulo</option>
             <option>Rio de Janeiro</option>
         </select>
+
+ <!-- Opção de receber atualizações -->
         <label>Receber Atualizações</label>
         <input type="checkbox" name="Atualizações"/>
-                <button type="submit">Enviar</button>
+
+<!-- Botão de envio -->
+         <button type="submit">Enviar</button>
             </form>    
         </section>
+
+<!-- Rodapé com direitos autorais -->
+
         <footer>
             
             <p> 2025 Clínica Saúde para Todos- Todos os direitos reservados.</p>
