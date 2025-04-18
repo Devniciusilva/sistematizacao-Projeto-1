@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+}
+.logo  {
+    display: float;
+    float: left;
+    width: 100px; 
+    height: auto;
+    border-radius: 10px;
+    margin: 40px 0;
+    flex-direction: column;
+    max-width:400px;
+   
+  }
+
+
+h1, h2 {
+    margin: 5px 1;
+}
+
+#servicos, #equipe, #formulario {
+    margin: 40px 0;
+}
+#servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:400px;
+    text-align:center;
+    margin:20px;
+}
+.servico p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.servico img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.servico, .membro {
+    display: inline-block;
+    margin: 10px;
+}
+
+.servico img, .membro img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.container {
+    max-width:600px;
+    margin: 50px auto;
+    padding: 20px;
+    background:azure ;
+    box-shadow: 0 010px rgba(0, 0, 0, 0.1);
+    
+}
+h3{
+    color:#d32f2f ;
+}
+p {
+    color:#555;
+}
+.btn-agendar {
+   display: inline-block;
+   padding: 15px 30px;
+   background-color:color(from color srgb r g b)
+   
+   
+   
+}
+.btn-agendar:houver{
+    background-color:color(from color srgb r g b);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(238, 241, 243, 0.5);
+}
+
+label, input {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
